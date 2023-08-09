@@ -1,0 +1,173 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 2,
+  "numPassedTests": 2,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 3,
+  "numTotalTests": 3,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1681544686598,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1681544687123,
+        "runtime": 417,
+        "slow": false,
+        "start": 1681544686706
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/yuanzhijia/Desktop/web3-education-interface/tests/unit/index.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 4,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": 4,
+                "expected": 56,
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m56\u001b[39m\nReceived: \u001b[31m4\u001b[39m",
+                "name": "toBe",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m56\u001b[39m\nReceived: \u001b[31m4\u001b[39m\n    at Object.toBe (/Users/yuanzhijia/Desktop/web3-education-interface/tests/unit/index.spec.ts:9:21)\n    at Promise.then.completed (/Users/yuanzhijia/Desktop/web3-education-interface/node_modules/jest-circus/build/utils.js:293:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/yuanzhijia/Desktop/web3-education-interface/node_modules/jest-circus/build/utils.js:226:10)\n    at _callCircusTest (/Users/yuanzhijia/Desktop/web3-education-interface/node_modules/jest-circus/build/run.js:297:40)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at _runTest (/Users/yuanzhijia/Desktop/web3-education-interface/node_modules/jest-circus/build/run.js:233:3)\n    at _runTestsForDescribeBlock (/Users/yuanzhijia/Desktop/web3-education-interface/node_modules/jest-circus/build/run.js:135:9)\n    at run (/Users/yuanzhijia/Desktop/web3-education-interface/node_modules/jest-circus/build/run.js:68:3)\n    at runAndTransformResultsToJestFormat (/Users/yuanzhijia/Desktop/web3-education-interface/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)\n    at jestAdapter (/Users/yuanzhijia/Desktop/web3-education-interface/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)\n    at runTestInternal (/Users/yuanzhijia/Desktop/web3-education-interface/node_modules/jest-runner/build/runTest.js:367:16)\n    at runTest (/Users/yuanzhijia/Desktop/web3-education-interface/node_modules/jest-runner/build/runTest.js:444:34)"
+          ],
+          "fullName": "adds 1 + 2 to equal 3",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "adds 1 + 2 to equal 3"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1madds 1 + 2 to equal 3\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m56\u001b[39m\n    Received: \u001b[31m4\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  7 |\u001b[39m test(\u001b[32m'adds 1 + 2 to equal 3'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[90m// expect(sum(1, 2)).toBe(1);\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m  9 |\u001b[39m   expect(sum(\u001b[35m2\u001b[39m\u001b[33m,\u001b[39m \u001b[35m2\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[35m56\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toBe (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/unit/index.spec.ts\u001b[39m\u001b[0m\u001b[2m:9:21)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1681544687266,
+        "runtime": 115,
+        "slow": false,
+        "start": 1681544687151
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/yuanzhijia/Desktop/web3-education-interface/tests/unit/test.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "综合性的测试"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "综合性的测试 简单的测试",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "简单的测试"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1681544687438,
+        "runtime": 127,
+        "slow": false,
+        "start": 1681544687311
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/yuanzhijia/Desktop/web3-education-interface/tests/e2e/home.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "综合性的测试"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "综合性的测试 简单的测试",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "简单的测试"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}
