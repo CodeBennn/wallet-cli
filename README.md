@@ -1,2 +1,1 @@
-# wallet-cli
-A cli to generate a basic chain switching project
+# web3-education-interface

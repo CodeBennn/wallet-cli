@@ -1,0 +1,11 @@
+node_modules/
+backstop_data/
+dist/
+docs/
+config/
+tests/
+.eslintrc
+jest.config.js
+webpack.config.js
+postcss.config.js
+cypress.config.js
