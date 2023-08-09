@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web3 ether.js</title>
+  <!-- <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script> -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.js"></script>
+</head>
+
+<body>
+  <script type="module">
+    import { ethers } from "https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.min.js";
+    const provider = new ethers.providers.JsonRpcProvider("https://ropsten.infura.io/v3/6b0c7b0b0b6c4b6e8b0b0b0b0b0b0b0b");
+    (async () => {
+      await provider.send("eth_requestAccounts", []);
+      singer = provider.getAddress("0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D");
+    })()
+  </script>
+</body>
+
+</html>
